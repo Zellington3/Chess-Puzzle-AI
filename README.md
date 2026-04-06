@@ -15,6 +15,7 @@ puzzle. The project includes:
 - A Stockfish baseline for comparison
 - An interactive CLI to solve puzzles
 - An evaluation pipeline with accuracy-by-rating breakdowns
+- A demo script you can run for a screen recording
 
 ## Project Structure
 
