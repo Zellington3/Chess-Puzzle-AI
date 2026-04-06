@@ -1,0 +1,29 @@
+[
+  {
+    "model": "linear",
+    "description": "No convolutions, pure MLP baseline",
+    "params": 2760192,
+    "test_acc": 0.3025,
+    "test_top3": 0.4616,
+    "best_val_acc": 0.3007,
+    "train_time_s": 39.8
+  },
+  {
+    "model": "small",
+    "description": "3 res-blocks, 64 filters",
+    "params": 1810080,
+    "test_acc": 0.3253,
+    "test_top3": 0.4855,
+    "best_val_acc": 0.3169,
+    "train_time_s": 72.2
+  },
+  {
+    "model": "full",
+    "description": "6 res-blocks, 128 filters (default)",
+    "params": 4945376,
+    "test_acc": 0.3542,
+    "test_top3": 0.5212,
+    "best_val_acc": 0.3463,
+    "train_time_s": 198.3
+  }
+]

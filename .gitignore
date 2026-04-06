@@ -1,0 +1,8 @@
+data/puzzles_100k.csv
+outputs/best_full.pt
+outputs/best_small.pt
+outputs/best_linear.pt
+__pycache__/
+*/__pycache__/
+venv/
+*.pyc
